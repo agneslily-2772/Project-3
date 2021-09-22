@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    box-sizing: border-box; 
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color:rgba(220, 220, 220, 0.568);
+    background-size: 400% 400%;
+	height: 100vh;  
+
+}
+.wrapper{
+    text-align: center;
+}
+h1{
+    color: darkblue;
+    font-size: 85px;
+    background-color: #67ffab;
+}
+h3{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+.output{
+    font-size: 50px;
+    color: darkblue;
+    text-align: center;
+    font-weight: bolder;
+    position: fixed;left: 585px;
+    height: 100px;width: 200px;
+    border: 5px solid darkgreen;
+    background-color: #67ffab;
+    display: none;
+}
+button{
+    font-size: 40px;
+    border-radius: 10px;
+}
+.wrapper > button:hover {
+    background-color: darkblue;
+    color: #67ffab;
+  }
+label,input{
+    margin: 10px;
+    font-size: 30px;
+    
+}
+label{
+    font-weight: bolder;
+}
